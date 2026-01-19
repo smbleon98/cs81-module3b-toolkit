@@ -42,3 +42,21 @@ console.log(isEven (3));    // false
 console.log(isEven(-2));    // true
 console.log(isEven(-5));    // false
 */
+
+// Function 4:
+function isOdd(x){
+    if (x % 2 != 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+
+// Tests for Function 3
+console.log(isOdd(0));     // false
+console.log(isOdd(3));    // true
+console.log(isOdd(-2));    // false
+console.log(isOdd(-5));    // true
+
