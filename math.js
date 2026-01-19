@@ -53,10 +53,34 @@ function isOdd(x){
     }
 }
 
-
-// Tests for Function 3
+/*
+// Tests for Function 4
 console.log(isOdd(0));     // false
 console.log(isOdd(3));    // true
 console.log(isOdd(-2));    // false
 console.log(isOdd(-5));    // true
+*/
 
+// Function 5:
+function multiply(x, y){
+    return (x*y);
+}
+
+/*
+// Tests for Function 5
+console.log(multiply(-5,2));        // -10
+console.log(multiply(-5.5, 2));     // -11
+console.log(multiply(-5.5, 2.1));   // -11.55
+*/
+
+// Function 6:
+function divide(x, y){
+    return (x/y);
+}
+
+/*
+// Tests for Function 6
+console.log(divide(6, 3));        // 2
+console.log(divide(-6.6, 2));     // -3.3
+console.log(divide(6.6, 2.0));   // 3.3
+*/
